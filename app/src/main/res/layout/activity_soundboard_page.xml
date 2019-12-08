@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/button_top_margin"
+        android:gravity="center"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/button_top_margin"
+        android:gravity="center"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/button_top_margin"
+        android:gravity="center">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/button_top_margin"
+        android:gravity="center">
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_marginTop="@dimen/button_top_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/button_page_font"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/button_top_margin"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/fileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter file name (exclude extension)"
+            android:layout_weight="2"/>
+        <EditText
+            android:id="@+id/buttonNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="1-16"
+            android:layout_weight="3"/>
+        <Button
+            android:id="@+id/submitButton"
+            android:onClick="changeSound"
+            android:text="Change Sound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+
+</LinearLayout>
